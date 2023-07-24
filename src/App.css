@@ -1,0 +1,50 @@
+/* APP */
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(252, 204, 10);
+  font-weight: 700;
+}
+.pig-img {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./pngtree-golden-creative-gold-pig-element-image_1333720.jpeg);
+}
+
+/* ExpenseForm */
+.ExpenseForm {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  margin-top: 10px;
+}
+.item-box {
+  width: 80vw;
+  height: 20vh;
+  border: 1px solid black;
+}
+
+.repurchase {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(252, 204, 10);
+  border: none;
+  border-radius: 30px;
+}
